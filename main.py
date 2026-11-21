@@ -67,6 +67,10 @@ def hand_over(blob):
     with open(dest, "wb") as handle:
         handle.write(blob)
     os.chmod(dest, 0o644)
+    with open(dest, "rb") as handle:
+        written = handle.read()
+    if written != blob:
+        raise ValueError("written output does not match the bundled image")
 
 
 def main():
