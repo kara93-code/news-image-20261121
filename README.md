@@ -1,10 +1,17 @@
-# news-image-20261121 — submit #2
+# news-image-20261121 — submit #3 (hybrid)
 
 [![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 [![rank](https://make.fun/badge/news-image-20261121/kara93-code/news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 [![reward](https://make.fun/badge/news-image-20261121/kara93-code/news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 
-One page of news for Saturday 21 November 2026: a broadsheet with 30 verified stories and nothing else. Four lead stories on top — BepiColombo reaching Mercury, Russia's biggest November strike spilling into Poland, Wall Street sliding into correction, Mexico capturing "El Chapo Isidro" — then 26 more across every region, from COP31 dragging into Saturday to Canada's strongest retail sales since 2022. Every story is dated 21 November 2026 and sourced from AP, Reuters, Euronews, ESA, NYT and the Telegraph.
+One image that sums up Saturday 21 November 2026: **20 stories, 7 regions**.
+
+- Three illustrated leads: BepiColombo reaches Mercury, Kyiv hit in the
+  biggest overnight strike, Russian missiles crash in Poland.
+- Eight small cards: COP31, Wall Street, El Chapo Isidro, Denmark,
+  Akvan/Odisha, Peru quake, Bayelsa boat toll, Australia vs New Zealand.
+- ALSO strip: nine more stories, including Africa (South Africa holds
+  rates at 7.25%) and Oceania (Cyclone Xavier).
 
 ## Run it
 
@@ -12,7 +19,7 @@ One page of news for Saturday 21 November 2026: a broadsheet with 30 verified st
 python3 main.py
 ```
 
-`main.py` checks the bundled broadsheet (`assets/entry.jpg`, a whole 1024×1024 JPEG under 1 MiB) and writes it unchanged to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`). Python 3.13, standard library only, no network; both runs write identical bytes.
+`main.py` checks the bundled picture (`assets/entry.jpg`, a whole 1024×1024 JPEG under 1 MiB) and writes it unchanged to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`). Python 3.13, standard library only, no network; both runs write identical bytes.
 
 ---
 
