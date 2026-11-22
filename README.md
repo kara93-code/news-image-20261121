@@ -1,10 +1,10 @@
-# news-image-20261121
+# news-image-20261121 — submit #2
 
 [![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 [![rank](https://make.fun/badge/news-image-20261121/kara93-code/news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 [![reward](https://make.fun/badge/news-image-20261121/kara93-code/news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 
-The World's News in One Picture — Saturday 21 November 2026: a newspaper-style infographic summing up the day's world news in a single 1024×1024 image. 12 verified stories across 5 regions: BepiColombo reaching Mercury, Kyiv hit in the biggest overnight strike, Russian missiles crashing in Poland, COP31 talks dragging into overtime, Wall Street sliding into correction, and more — plus a by-the-numbers strip and an also-list.
+One page of news for Saturday 21 November 2026: a broadsheet with 30 verified stories and nothing else. Four lead stories on top — BepiColombo reaching Mercury, Russia's biggest November strike spilling into Poland, Wall Street sliding into correction, Mexico capturing "El Chapo Isidro" — then 26 more across every region, from COP31 dragging into Saturday to Canada's strongest retail sales since 2022. Every story is dated 21 November 2026 and sourced from AP, Reuters, Euronews, ESA, NYT and the Telegraph.
 
 ## Run it
 
@@ -12,7 +12,7 @@ The World's News in One Picture — Saturday 21 November 2026: a newspaper-style
 python3 main.py
 ```
 
-`main.py` validates the bundled image (`assets/entry.jpg`) and writes it to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`). Python 3.13, standard library only, no network; both runs write identical bytes.
+`main.py` checks the bundled broadsheet (`assets/entry.jpg`, a whole 1024×1024 JPEG under 1 MiB) and writes it unchanged to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`). Python 3.13, standard library only, no network; both runs write identical bytes.
 
 ---
 
